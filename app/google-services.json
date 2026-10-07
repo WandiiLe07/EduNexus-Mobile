@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "333207148055",
+    "project_id": "edunexus-mobile",
+    "storage_bucket": "edunexus-mobile.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:333207148055:android:cc70a63340a77f240b2e52",
+        "android_client_info": {
+          "package_name": "com.dut.edunexusmobile"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "333207148055-4fmg37tj2tejtg1ms6f3s1bnmbq7d33h.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.dut.edunexusmobile",
+            "certificate_hash": "dffbdb251611a10183536b4ffd638ca5220568d0"
+          }
+        },
+        {
+          "client_id": "333207148055-38jj0uocaavanbr1hmvbq74jjt6i82u0.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDQjHbd4homSb_54k7e8_8QQK3uiWj3rn0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "333207148055-38jj0uocaavanbr1hmvbq74jjt6i82u0.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

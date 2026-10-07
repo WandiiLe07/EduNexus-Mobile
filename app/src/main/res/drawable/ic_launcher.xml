@@ -1,0 +1,39 @@
+﻿<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+
+    <!-- Forest Code background -->
+    <path
+        android:fillColor="#0B3D2E"
+        android:pathData="M0,0H108V108H0Z" />
+
+    <!-- EduNexus E mark -->
+
+    <path
+        android:fillColor="#D9F7E7"
+        android:pathData="M29,29H37V79H29Z" />
+
+    <path
+        android:fillColor="#D9F7E7"
+        android:pathData="M37,29H67V37H37Z" />
+
+    <path
+        android:fillColor="#D9F7E7"
+        android:pathData="M37,50H60V58H37Z" />
+
+    <path
+        android:fillColor="#D9F7E7"
+        android:pathData="M37,71H67V79H37Z" />
+
+    <path
+        android:fillColor="#D9F7E7"
+        android:pathData="M67,29H75V79H67Z" />
+
+    <!-- Laser Lemon nexus point -->
+    <path
+        android:fillColor="#CCFF00"
+        android:pathData="M71,46 A8,8 0,1 1,71,62 A8,8 0,1 1,71,46Z" />
+
+</vector>

@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "333207148055",
+    "project_id": "edunexus-mobile",
+    "storage_bucket": "edunexus-mobile.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:333207148055:android:cc70a63340a77f240b2e52",
+        "android_client_info": {
+          "package_name": "com.dut.edunexusmobile"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDQjHbd4homSb_54k7e8_8QQK3uiWj3rn0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

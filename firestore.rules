@@ -1,0 +1,28 @@
+rules_version = '2';
+service cloud.firestore {
+  match /databases/{database}/documents {
+
+    // Any signed-in student can read resources/discussions.
+    // Only the signed-in author can create content under their own name.
+    match /resources/{resourceId} {
+      allow read: if request.auth != null;
+      allow create: if request.auth != null
+                    && request.resource.data.uploadedByUid == request.auth.uid;
+      allow delete: if request.auth != null
+                    && resource.data.uploadedByUid == request.auth.uid;
+    }
+
+    match /discussionPosts/{postId} {
+      allow read: if request.auth != null;
+      allow create: if request.auth != null
+                    && request.resource.data.authorUid == request.auth.uid;
+      allow update: if request.auth != null; // allows replyCount increment from any signed-in user
+
+      match /replies/{replyId} {
+        allow read: if request.auth != null;
+        allow create: if request.auth != null
+                      && request.resource.data.authorUid == request.auth.uid;
+      }
+    }
+  }
+}
